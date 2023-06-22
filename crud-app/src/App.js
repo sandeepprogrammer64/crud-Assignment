@@ -1,10 +1,13 @@
 import './App.css';
-import Form from './Components/Form';
+import AllRoutes from './Components/AllRoutes';
+import Navbar from './Components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-     <Form />
+      <Navbar />
+     <AllRoutes />
      
     </div>
   );
