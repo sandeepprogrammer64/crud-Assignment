@@ -36,6 +36,7 @@ const Navbar = () => {
           size="sm"
         />
       </Box>
+      
     </Flex>
   );
 };
