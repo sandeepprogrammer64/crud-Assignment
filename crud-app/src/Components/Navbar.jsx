@@ -17,9 +17,12 @@ const Navbar = () => {
       color={colorMode === 'light' ? 'black' : 'white'}
     >
       <Flex align="center" mr={5} gap="500px">
+      <Link to="/">
         <Heading as="h3" size="lg" letterSpacing={'-.1rem'}>
           User Management Application
         </Heading>
+      </Link>
+
         <Link to="/addData">
             <Button colorScheme='teal'>
           Add Data
