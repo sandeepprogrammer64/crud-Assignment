@@ -23,7 +23,7 @@ const MainPage = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/users");
+        const response = await axios.get("https://mock-server-5oy4.onrender.com/users");
         setUsers(response.data);
       } catch (error) {
         console.error(error);
@@ -75,7 +75,7 @@ const MainPage = () => {
 
   const handleDeleteUser = async (userId) => {
     try {
-      await axios.delete(`http://localhost:3000/users/${userId}`);
+      await axios.delete(`https://mock-server-5oy4.onrender.com/users/${userId}`);
 
       setUsers((prevUsers) => prevUsers.filter((user) => user.id !== userId));
 

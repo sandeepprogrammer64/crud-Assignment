@@ -65,7 +65,7 @@ const EditUserForm = ({ user, isOpen, onClose, onUpdate }) => {
 
     try {
       const response = await axios.put(
-        `http://localhost:3000/users/${user.id}`,
+        `https://mock-server-5oy4.onrender.com/users/${user.id}`,
         {
           name,
           email,
