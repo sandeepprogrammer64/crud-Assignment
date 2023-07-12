@@ -34,6 +34,7 @@ const Navbar = () => {
           <Button colorScheme="teal">Add Data</Button>
         </Link>
       </Flex>
+      
 
       <Box>
         <IconButton
